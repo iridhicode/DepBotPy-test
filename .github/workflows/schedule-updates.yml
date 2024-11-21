@@ -7,6 +7,6 @@ on:
 
 jobs:
   call-update-workflow:
-    uses: iridhicode/DepBotPy/.github/workflows/update-dependencies.yml@main
+    uses: iridhicode/DepBotPy/.github/workflows/update-dependencies.yml@master
     secrets:
       GH_PAT: ${{ secrets.GH_PAT }}
